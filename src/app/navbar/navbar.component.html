@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Bootstrap Example</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+
+    .navbar {
+
+      margin-bottom: 0;
+
+      border-radius: 0;
+
+    }
+
+    
+    .navbar {
+
+margin-bottom: 0;
+
+border-radius: 0;
+
+}
+
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+.row.content {height: 450px}
+
+
+
+/* Set gray background color and 100% height */
+
+.sidenav {
+
+padding-top: 20px;
+
+background-color: #f1f1f1;
+
+height: 100%;
+
+}
+
+
+
+/* Set black background color, white text and some padding */
+
+footer {
+
+background-color: #555;
+
+color: white;
+
+padding: 15px;
+
+}
+
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+
+@media screen and (max-width: 767px) {
+
+.sidenav {
+
+ height: auto;
+
+ padding: 15px;
+
+}
+
+.row.content {height:auto;}
+
+}
+
+    /* Add a gray background color and some padding to the footer */
+
+    footer {
+
+      background-color: #f2f2f2;
+
+      padding: 25px;
+
+    }
+
+
+
+    
+
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+
+    
+  </style>
+
+</head>
+
+<body>
+        <div class="container-fluid" >
+            <div class="col-sm-4" >
+            </div>
+             <div  class="img-rounded" class="col-sm-4 ">
+            <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/10/attachment_87286291-e1507929201534.png"
+            style="width:100%" height="165" alt="John" >
+            </div> 
+            <div class="col-sm-4 ">
+            </div>
+            
+        </div>
+    
+    
+    <nav class="navbar navbar-inverse">
+
+        <div class="container-fluid">
+    
+         
+    
+          <div class="collapse navbar-collapse" id="myNavbar">
+    
+            <ul class="nav navbar-nav">
+    
+              <li class="active"><a routerLink="home">Home</a></li>
+    
+              <li><a routerLink="appointment">PlaceTrainerAppointment</a></li>
+    
+              <li><a routerLink="viewappointment">ViewAllAppointment</a></li>
+    
+              <li><a routerLink="about">Contact</a></li>
+    
+            </ul>
+    
+            <ul class="nav navbar-nav navbar-right">
+    
+              <li><a routerLink="login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    
+            </ul>
+    
+          </div>
+    
+        </div>
+    
+      </nav>
+      <style>
+
+        .navbar {
+       
+        position: relative;
+       
+        min-height: 0px;
+       
+        margin-bottom: 0px !important;
+       
+        border: 1px solid transparent;
+       
+       }
+       
+      </style>
+</body>
